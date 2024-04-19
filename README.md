@@ -10,7 +10,7 @@ To download this example project to your computer, you can either:
 ## Preparing Qualisys data for Visual3D processing
 
 1. Install Visual3D.
-2. In QTM, set Project Options > Miscellaneous > Folder Options for "Visual 3d" to ```C:\Program Files\Visual3D\Visual3D.exe``` (adapt if Visual3D is installed at different location).
+2. In QTM, set Project Options > Miscellaneous > Folder Options for "Visual3D" to ```C:\Program Files\Visual3D x64\Visual3D.exe``` (adapt if Visual3D is installed at different location).
 
 ## Resources for using the Qualisys Project Automation Framework (PAF)
 
