@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.0.3]
+Tested compatibility with Visual3D 2024.06.1.
 
 ## [1.0.3]
 Tested compatibility with Visual3D 2024.05.3.
