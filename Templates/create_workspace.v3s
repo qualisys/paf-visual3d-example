@@ -46,9 +46,15 @@ foreach($measurements as $m) {
 !====================================================
 !Save frame rate so that it is available for other commands
 !====================================================
-
 Select_Active_File
 /FILE_NAME=Dynamic
+;
+
+! Remove prefix 'Q_' if Skeleton solver Sports marker set is used.
+Remove_Prefix_From_Point_Labels
+/PREFIX=Q_
+! /INCLUDE_CAL_FILE=TRUE
+! /OVERWRITE_C3D_FILE=FALSE
 ;
 
 Evaluate_Expression
@@ -135,7 +141,7 @@ Create_Hybrid_Model
 /FILE_NAME=<?=$working_directory . $static;?> 
 ;
 
-! Remove prefix 'Q_' if Skeleton solver Sports marker set is used.
+! Remove prefix 'Q_' from static trial if Skeleton solver Sports marker set is used 
 Remove_Prefix_From_Point_Labels
 /PREFIX=Q_
 ! /INCLUDE_CAL_FILE=TRUE
