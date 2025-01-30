@@ -333,6 +333,37 @@ Call_Script
 ;
 
 !====================================================
+! Export LINK_MODEL_BASED signals to .xml
+!====================================================
+
+Export_Data_To_Ascii_File
+/FILE_NAME=<?=$working_directory;?>session_data.xml
+/SIGNAL_TYPES=LINK_MODEL_BASED
+! /SIGNAL_FOLDER=ORIGINAL
+! /SIGNAL_NAMES=
+! /SIGNAL_COMPONENTS=
+! /COMPONENT_SEQUENCE=
+! /SIGNAL_PRECISION=
+! /EVENT_SEQUENCE=
+! /EXCLUDE_EVENTS=
+! /USE_POINT_RATE=FALSE
+! /NORMALIZE_DATA=FALSE
+! /NORMALIZE_POINTS=101
+! /EXPORT_MEAN_AND_STD_DEV=FALSE
+! /EXPORT_MEAN_AND_STD_DEV_FOR_METRIC=FALSE
+! /USE_P2D_FORMAT=FALSE
+/USE_XML_FORMAT=TRUE
+! /USE_JSON_FORMAT=FALSE
+! /USE_SHORT_FILENAME=FALSE
+! /INCLUDE_TAGS_FOR_XML=FALSE
+! /EXPORT_EMPTY_SIGNALS=FALSE
+! /EXPORT_WITHOUT_HEADER=FALSE
+! /EXPORT_NAN=FALSE
+! /CREATE_FOLDER_PATH=TRUE
+! /USE_SCIENTIFIC_NOTATION=FALSE
+;
+
+!====================================================
 !Save cmz
 !====================================================
 
