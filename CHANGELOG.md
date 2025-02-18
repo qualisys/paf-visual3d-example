@@ -3,6 +3,7 @@
 ## [1.0.6]
 - Fix to remove 'Q_' prefix from marker names before lowpass filter is applied.
 - Added export of LINK_MODEL_BASED signals to .xml.
+- Tested compatibility with Sift 2025.02.13.
 
 ## [1.0.5]
 Tested compatibility with Visual3D 2024.10.4.
