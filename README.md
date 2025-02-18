@@ -1,4 +1,4 @@
-# Qualisys PAF – Visual3D example
+# Qualisys PAF – Visual3D/Sift example
 
 ## Getting started
 To download this example project to your computer, you can either:
@@ -7,10 +7,19 @@ To download this example project to your computer, you can either:
 <br>_— or —_
 * Clone this repository to your computer.
 
-## Preparing Qualisys data for Visual3D processing
+## Preparing for processing
+
+Either Visual3D or Sift can be used with this example. Sift will run the same script and generate the same output files as Visual3D. 
+
+### Visual3D processing
 
 1. Install Visual3D.
 2. In QTM, set Project Options > Miscellaneous > Folder Options for "Visual3D" to ```C:\Program Files\Visual3D x64\Visual3D.exe``` (adapt if Visual3D is installed at different location).
+
+### Sift processing
+
+1. Install Sift.
+2. In QTM, set Project Options > Miscellaneous > Folder Options for "Visual3D" to ```C:\Program Files\Sift\Sift.exe``` (adapt if Sift is installed at different location).
 
 ## Resources for using the Qualisys Project Automation Framework (PAF)
 
