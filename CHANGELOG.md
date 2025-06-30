@@ -1,5 +1,9 @@
 # Changelog
 
+
+## [1.0.7]
+- Tested with QTM 2025.1.15367, Visual3D 2025.6.2 and Sift 2025.06.26.
+
 ## [1.0.6]
 - Fix to remove 'Q_' prefix from marker names before lowpass filter is applied.
 - Added export of LINK_MODEL_BASED signals to .xml.
