@@ -1,7 +1,7 @@
 Project ID: Open PAF Visual3D Example
 Package Information:
   Name: Visual3D Example
-  Version: 1.0.7
+  Version: 1.0.8
   Required QTM version: 2.16.3600
   Encoding bytes: €€€€€
 
@@ -120,3 +120,4 @@ Columns:
     Comments:
       Field: Comments
       Width: 100
+
