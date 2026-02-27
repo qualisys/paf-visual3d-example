@@ -1,6 +1,8 @@
 # Changelog
 
-
+## [1.0.8]
+- Tested with QTM 2026.1 (build 16751) and Visual3D 2026.01.3.
+- 
 ## [1.0.7]
 - Tested with QTM 2025.1.15367, Visual3D 2025.6.2 and Sift 2025.06.26.
 
