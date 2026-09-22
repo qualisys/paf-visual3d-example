@@ -23,7 +23,7 @@ Types:
     Session:
       Fields: [Session ID, Test condition, Operator]
       Measurements: [Static, Dynamic]
-      Analyses: [Processing]
+      Analyses: [Solving Prisma Pose, Visual3D Processing]
       Display order: [Session ID, Test condition, Operator, Comments]
       Directory pattern: $Creation date$_$Test condition$
       PDF guide: ..\Documentation\Marker_Guide_Sports_Marker_Set.pdf
@@ -45,7 +45,7 @@ Measurements:
     AIM models: Sports_Dynamic.qam
 
 Analyses:
-  Processing:
+  Visual3D Processing:
     Type: External program
     Program display name: Visual 3d
     Export session: Yes
@@ -53,6 +53,18 @@ Analyses:
     Arguments: [/s, $WorkingDirectory$create_workspace.v3s]
     Template files: ['*.v3s']
     Do not wait for Application: Yes
+
+#Prisma Pose
+  Solving Prisma Pose:
+    Type: Compound
+    Components: [Create Prisma skeletons, Solve Prisma skeletons]
+  Create Prisma skeletons:
+    Type: Create markerless skeleton
+    Calibration measurement: Static*
+    Measurements: ['*\*.qtm', '*.qtm']
+  Solve Prisma skeletons:
+    Type: Solve markerless skeleton
+    Measurements: ['*\*.qtm', '*.qtm']
 
 Fields:
   ID:
