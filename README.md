@@ -7,7 +7,21 @@ To download this example project to your computer, you can either:
 <br>_— or —_
 * Clone this repository to your computer.
 
+
+## Preparing QTM project
+There are two ways how to set up the project for QTM:
+1. If you are going to use this example in a single project:
+    1. Unzip the zip file with source code na copy its content into a QTM project
+2. If you plan to create multiple projects based on this example, follow these steps to make the example available in the New Project dialog in QTM:
+    1. Unzip the zip file with source code to `C:\Program Files\Qualisys\Qualisys Track Manager\Packages
+    2. Name the folder `Prisma Markerless Example`
+    3. Delete Settings.qtmproj. This makes the example available in QTM. Then for to QTM > File > New Project and create new project based on Prisma Markerless Example.
+
 ## Preparing for processing
+This example can be used as a starting point for both markrebased project using Sports marker set or Prisma Pose markerless project. 
+1. Download data from Qualisys File Library (https://qfl.qualisys.com/#!/project/markerless-example-data-for-prisma).
+2. Extract downloaded .zip file into the `Data` folder of the project.
+3. To process the data, click on **Start Processing** button and choose either **Solving Prisma Pose** or **Visual3D Processing**. For markerless processing Prisma Pose skeleton must be solved before Visual3D processing can be started.
 
 Either Visual3D or Sift can be used with this example. Sift will run the same script and generate the same output files as Visual3D. 
 
