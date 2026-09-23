@@ -59,4 +59,4 @@ Our official examples for various processing engines:
 - [Theia Markerless Multisubject](https://github.com/qualisys/paf-theia-markerless-multisubject-example)
 - [Visual3D](https://github.com/qualisys/paf-visual3d-example)
 
-_As of QTM version 2.17, the official Qualisys PAF examples can be used without any additional license. Note that some more advanced analysis types require a license for the "PAF Framework Developer kit" (Article number 150300)._
+_As of QTM version 2.17, the official Qualisys PAF examples can be used without any additional license._
