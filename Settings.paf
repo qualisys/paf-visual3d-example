@@ -10,7 +10,7 @@ Default fields: [Creation date, Creation time]
 
 Date format: Iso
 Date separator: Dash
-Filename filter: \.(pdf|r3w|cmo|docx)$
+Filename filter: \.(pdf|cmz|docx)$
 
 Types:
   Subject:
