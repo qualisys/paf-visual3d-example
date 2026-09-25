@@ -1,4 +1,4 @@
-# Qualisys PAF – Visual3D/Sift example
+# Qualisys PAF – Visual3D/Sift and Prisma Pose example
 
 ## Getting started
 To download this example project to your computer, you can either:
@@ -6,7 +6,6 @@ To download this example project to your computer, you can either:
 * [Click here](https://github.com/qualisys/paf-visual3d-example/archive/refs/heads/main.zip) to download it as a zip file.
 <br>_— or —_
 * Clone this repository to your computer.
-
 
 ## Preparing QTM project
 There are two ways how to set up the project for QTM:
@@ -18,7 +17,7 @@ There are two ways how to set up the project for QTM:
     3. Delete Settings.qtmproj. This makes the example available in QTM. Then for to QTM > File > New Project and create new project based on Prisma Markerless Example.
 
 ## Preparing for processing
-This example can be used as a starting point for both markrebased project using Sports marker set or Prisma Pose markerless project. 
+This example can be used as a starting point for both markrebased project using Sports marker set and Prisma Pose markerless project. Markerbased example data are included in this project, but session with video data for Prisma Pose example must be downloaded separately. Follow these steps for using this example with video data:
 1. Download data from Qualisys File Library (https://qfl.qualisys.com/#!/project/markerless-example-data-for-prisma).
 2. Extract downloaded .zip file into the `Data` folder of the project.
 3. To process the data, click on **Start Processing** button and choose either **Solving Prisma Pose** or **Visual3D Processing**. For markerless processing Prisma Pose skeleton must be solved before Visual3D processing can be started.
