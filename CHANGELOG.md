@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.0.0]
+- Added example how to use Prisma Pose markerless skeleton with Visual3D.
+
 ## [1.0.9]
 - Tested with QTM 2026.2 (build 17495), Visual3D 2026.01.3 and Sift 2026.02.13.
 
