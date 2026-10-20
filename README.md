@@ -1,5 +1,5 @@
 # Qualisys PAF – Visual3D/Sift and Prisma Pose example
-**NOTE: Prisma Pose requires QTM 2026.3 Update 1 avaialbe November 2 2026.**
+**NOTE: Prisma Pose requires QTM 2026.3 Update 1 available November 2 2026.**
 ## Getting started
 To download this example project to your computer, you can either:
 
